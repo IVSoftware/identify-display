@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.richTextBox = new System.Windows.Forms.RichTextBox();
-            this.comboBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // richTextBox
@@ -38,28 +37,18 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBox.Location = new System.Drawing.Point(23, 80);
+            this.richTextBox.Location = new System.Drawing.Point(13, 24);
             this.richTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox.Name = "richTextBox";
-            this.richTextBox.Size = new System.Drawing.Size(582, 422);
+            this.richTextBox.Size = new System.Drawing.Size(594, 429);
             this.richTextBox.TabIndex = 0;
             this.richTextBox.Text = "";
-            // 
-            // comboBox
-            // 
-            this.comboBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox.FormattingEnabled = true;
-            this.comboBox.Location = new System.Drawing.Point(23, 20);
-            this.comboBox.Name = "comboBox";
-            this.comboBox.Size = new System.Drawing.Size(260, 40);
-            this.comboBox.TabIndex = 1;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(666, 550);
-            this.Controls.Add(this.comboBox);
+            this.ClientSize = new System.Drawing.Size(666, 486);
             this.Controls.Add(this.richTextBox);
             this.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(4);

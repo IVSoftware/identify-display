@@ -16,11 +16,7 @@ namespace identify_display
                 richTextBox.AppendText($"{screenItem.DisplayName}{Environment.NewLine}");
                 richTextBox.SelectionColor = ForeColor;
                 richTextBox.AppendText($"{screenItem}{Environment.NewLine}");
-                comboBox.Items.Add(screenItem);
             }
-            var index = comboBox.Items.Cast<ScreenItem>().ToList().IndexOf(primary);
-            comboBox.SelectedIndex = index;
-            comboBox.DisplayMember = nameof(ScreenItem.DisplayName);
         }
     }
     class ScreenItem
